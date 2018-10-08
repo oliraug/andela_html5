@@ -1,0 +1,71 @@
+    .body {
+  background-color: black;
+}
+.logindiv{
+  margin:  20% auto auto;
+  background: #fff;
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.left-div{padding: 10px;width: 50%;}
+.right-div{margin:auto 25% auto;width: 50%;}
+.gp-group {
+  display: flex;
+  align-content: stretch;
+  background: #ffff00;
+  margin: 30px 50% auto;
+  width: 100px;
+}
+.gp-group > input {
+  flex: 1 0 auto;
+}
+.gp-group-addon {
+  background: #ff0000;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+span img{width: 20px; height: 20px;}
+
+.fb-group {
+  display: flex;
+  align-content: stretch;
+  background: #0000ff;
+  margin: -100px 50% auto;
+  width: auto;
+}
+.right-div a {
+  display: flex;  
+  margin: -80px 5% auto;
+  float: right;
+  text-decoration: none;
+}
+.fb-group > input {
+  flex: 1 0 auto;
+}
+.fb-group-addon {
+  background: #0000ff;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+.tw-group {
+  display: flex;
+  align-content: stretch;
+  background: #0000ff;
+  margin: 20px 50% auto;
+  width: auto;
+}
+.tw-group > input {
+  flex: 1 0 auto;
+}
+.tw-group-addon {
+  background: #ADD8E6;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+.tw-group span img{width: 20px; height: 20px;}
+.remember_me a {margin: auto 10px auto;text-decoration: none;}
+.created_by p{color: #fff;text-align: center;margin-top: 2.5%;font-size: 26px;}
+span{color: forestgreen}
+.login-form .input-group{width: 50%;}
+.input-button {width: 50%;}
